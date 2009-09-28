@@ -72,10 +72,6 @@ ifeq ($(DEBUG_NAME), fastdebug)
   HOTSPOT_TARGET = all_fastdebug
 endif
 
-ifeq ($(CORE_BUILD), true)
-  HOTSPOT_TARGET := $(HOTSPOT_TARGET)core
-endif
-
 ifeq ($(ZERO_BUILD), true)
   HOTSPOT_TARGET := $(HOTSPOT_TARGET)zero
 endif
