@@ -12,8 +12,6 @@ export CCACHE_DIR=.ccache;
 # Set exports
 export LANG=C
 export ALT_BOOTDIR=/usr/lib/jvm/java-6-openjdk-amd64
-export FT2_LIBS=-lfreetype
-export FT2_CFLAGS='-I$(FREETYPE_HEADERS_PATH) -I$(FREETYPE_HEADERS_PATH)/freetype2'
 export UNLIMITED_CRYPTO=true
 export ALLOW_DOWNLOADS=true
 export NO_DOCS=true
