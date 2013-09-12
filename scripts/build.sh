@@ -17,7 +17,7 @@ export ALLOW_DOWNLOADS=true
 export NO_DOCS=true
 
 # Set axdev build
-export MILESTONE=axdevjdk
+export MILESTONE=axdevjdku40
 export BUILD_NUMBER=b01
 
 # Set optimized variant
