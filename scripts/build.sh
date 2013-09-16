@@ -5,10 +5,6 @@
 # or copy to root and:
 #     . build.sh
 
-# Set cache compression
-export USE_CCACHE=1;
-export CCACHE_DIR=.ccache;
-
 # Set exports
 export LANG=C
 export ALT_BOOTDIR=/usr/lib/jvm/java-6-openjdk-amd64
